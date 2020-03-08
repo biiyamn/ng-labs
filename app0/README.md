@@ -38,15 +38,27 @@ add file systemjs.config.js
 ## configure compiler option 
 * add es6, dom to lib in tsconfig.json
 * configure experimentalDecorators
-## build and run
+## build
 ```
  npm run build
+  ```
+## run
+- add server dependency
+```
  npm i --save-dev live-server
  ```
+- add start script 
+```
 "scripts": {
   "build": "tsc",
   "start": "live-server"
 }
+```
+- run the script
+```
+npm start
+```
+
 ## useful links
 - https://medium.com/angular-in-depth/setting-up-angular-from-scratch-1f518c65d8ab
 - https://indepth.dev/avoiding-common-confusions-with-modules-in-angular/
