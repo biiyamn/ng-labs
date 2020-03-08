@@ -8,19 +8,30 @@ touch app0/src/index.htm
 touch app0/src/app/app.module.ts
 touch app0/src/app/app.component.ts
 ```
+## create package.json
+```
 npm init
+```
+## install dependencies
+```
 npm install @angular/core --save
 npm install @angular/platform-browser --save
 npm install @angular/platform-browser-dynamic --save
-npm i --save-dev typescript
-# add script "start":"ng serve" and "build": "tsc" to package.json
-npm run-script tsc -- --init
+npm install --save-dev typescript
 npm install @angular/cli --save-dev
 npm install @angular/compiler-cli --save-dev
-npm i --save @angular/compiler
-npm i --save @angular/common
-npm i --save core-js zone.js rxjs
-npm i --save systemjs
+npm install --save @angular/compiler
+npm install --save @angular/common
+npm install --save core-js zone.js rxjs
+npm install --save systemjs
+```
+## add scripts to package.json
+```
+"tsc":"tsc" 
+"build": "tsc"
+ npm run-script tsc -- --init
+```
+
 npm install
 # add systemjs.config.js
 # add es6, dom to lib in tsconfig.json
