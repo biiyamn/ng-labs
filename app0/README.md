@@ -31,18 +31,22 @@ npm install --save systemjs
 "build": "tsc"
  npm run-script tsc -- --init
 ```
-
-npm install
-# add systemjs.config.js
-# add es6, dom to lib in tsconfig.json
-#configure experimentalDecorators
-
-npm run build
-npm i --save-dev live-server
+## configure module loader using systemJS
+```
+add file systemjs.config.js
+```
+## configure compiler option 
+* add es6, dom to lib in tsconfig.json
+* configure experimentalDecorators
+## build and run
+```
+* npm run build
+* npm i --save-dev live-server
 "scripts": {
   "build": "tsc",
   "start": "live-server"
 }
+```
 # https://medium.com/angular-in-depth/setting-up-angular-from-scratch-1f518c65d8ab
 # https://indepth.dev/avoiding-common-confusions-with-modules-in-angular/
 # https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
