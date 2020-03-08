@@ -1,8 +1,13 @@
+# labs 
+Angular app from scratch without ngcli
+## create project structure
+```
 mkdir app0/src/app
 touch app0/src/main.ts
 touch app0/src/index.htm
 touch app0/src/app/app.module.ts
 touch app0/src/app/app.component.ts
+```
 npm init
 npm install @angular/core --save
 npm install @angular/platform-browser --save
