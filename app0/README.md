@@ -40,17 +40,18 @@ add file systemjs.config.js
 * configure experimentalDecorators
 ## build and run
 ```
-* npm run build
-* npm i --save-dev live-server
+ npm run build
+ npm i --save-dev live-server
+ ```
 "scripts": {
   "build": "tsc",
   "start": "live-server"
 }
-```
-# https://medium.com/angular-in-depth/setting-up-angular-from-scratch-1f518c65d8ab
-# https://indepth.dev/avoiding-common-confusions-with-modules-in-angular/
-# https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
-# https://stackoverflow.com/questions/38263406/what-are-differences-between-systemjs-and-webpack
+## useful links
+- https://medium.com/angular-in-depth/setting-up-angular-from-scratch-1f518c65d8ab
+- https://indepth.dev/avoiding-common-confusions-with-modules-in-angular/
+- https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
+- https://stackoverflow.com/questions/38263406/what-are-differences-between-systemjs-and-webpack
 
 
 
