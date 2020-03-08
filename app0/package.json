@@ -1,0 +1,32 @@
+{
+  "name": "app0",
+  "version": "1.0.0",
+  "description": "mkdir app0/src/app touch app0/main.ts touch app0/index.htm touch app0/src/app/app.module.ts touch app0/src/app/app.component.ts npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "build": "tsc",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^9.0.5",
+    "@angular/compiler": "^9.0.5",
+    "@angular/core": "^9.0.5",
+    "@angular/platform-browser": "^9.0.5",
+    "@angular/platform-browser-dynamic": "^9.0.5",
+    "core-js": "^3.6.4",
+    "rxjs": "^6.5.4",
+    "systemjs": "^6.2.5",
+    "zone.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "@angular/cli": "^9.0.5",
+    "@angular/compiler-cli": "^9.0.5",
+    "live-server": "^1.2.1",
+    "typescript": "^3.8.3"
+  }
+}
